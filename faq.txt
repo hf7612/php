@@ -1,0 +1,8 @@
+how to monitor sql
+/etc/mysql/conf.d/mysql.cnf:         
+[mysqld]
+general-log
+general-log-file=queries.log
+log-output=file
+
+the log is /var/lib/mysql/queries.log.
